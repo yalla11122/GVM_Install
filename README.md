@@ -1,6 +1,4 @@
-# GVM_Install
-
-
+    # GVM_Install
 
     sudo pacman -Syu docker docker-compose curl ca-certificates gnupg
   
@@ -15,7 +13,7 @@
 
     cd "$DOWNLOAD_DIR"
 
-curl -f -O -L https://greenbone.github.io/docs/latest/_static/docker-compose.yml
+    curl -f -O -L https://greenbone.github.io/docs/latest/_static/docker-compose.yml
     
     curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-greenbone-community-edition.sh
     
@@ -23,10 +21,16 @@ curl -f -O -L https://greenbone.github.io/docs/latest/_static/docker-compose.yml
 
  ./setup-and-start-greenbone-community-edition.sh
 
-set USER/PASS
+   ##set USER/PASS
 
         https://127.0.0.1:9392
 
+     
+   
+     
+     
+     
+     
      
      ....Feed is currently syncing.
 
