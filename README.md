@@ -15,7 +15,8 @@ sudo pacman -Syu docker docker-compose curl ca-certificates gnupg
      cd "$DOWNLOAD_DIR"
 
 curl -f -O -L https://greenbone.github.io/docs/latest/_static/docker-compose.yml
-curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-greenbone-community-edition.sh
+    
+    curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-greenbone-community-edition.sh
     
     chmod +x setup-and-start-greenbone-community-edition.sh
 
