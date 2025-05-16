@@ -19,7 +19,7 @@
     
     chmod +x setup-and-start-greenbone-community-edition.sh
 
- ./setup-and-start-greenbone-community-edition.sh
+         ./setup-and-start-greenbone-community-edition.sh
 
    ##set USER/PASS
 
