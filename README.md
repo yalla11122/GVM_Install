@@ -23,6 +23,9 @@ curl -f -O https://greenbone.github.io/docs/latest/_static/setup-and-start-green
 
 set USER/PASS
 
+        https://127.0.0.1:9392
+
+     
      ....Feed is currently syncing.
 
     Please wait while the feed is syncing. Scans are not available during this time. For more information, visit the Documentation.
