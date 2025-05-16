@@ -1,18 +1,19 @@
 # GVM_Install
 
-sudo pacman -Syu docker docker-compose curl ca-certificates gnupg
+
+
+    sudo pacman -Syu docker docker-compose curl ca-certificates gnupg
   
-  sudo systemctl enable --now docker
+  
+       sudo systemctl enable --now docker
  
-     sudo usermod -aG docker $USER && newgrp docker
+          sudo usermod -aG docker $USER && newgrp docker
    
     export DOWNLOAD_DIR=$HOME/greenbone-community-container
 
     mkdir -p "$DOWNLOAD_DIR"
-  
 
-
-     cd "$DOWNLOAD_DIR"
+    cd "$DOWNLOAD_DIR"
 
 curl -f -O -L https://greenbone.github.io/docs/latest/_static/docker-compose.yml
     
